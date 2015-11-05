@@ -58,7 +58,6 @@ function remove(name, opt) {
   }
 
   if (_res && _res.clearCookie) {
-    var opt = path ? { path: path } : undefined;
     _res.clearCookie(name, opt);
   }
 }
